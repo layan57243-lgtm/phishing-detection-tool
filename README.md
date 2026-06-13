@@ -1,22 +1,2 @@
 # phishing-detection-tool
-A Python-based cybersecurity tool that analyzes URLs for common phishing indicators and generates a threat assessment report.
-Features:
-1- Detects IP-based URLs
-2- Identifies suspicious keywords
-3- Detects URL shortening services
-4- Analyzes URL length
-5- Detects excessive subdomains
-6- Flags suspicious top-level domains
-7- Identifies special character abuse
-8- Generates risk scores and threat reports
-Purpose:
-This project was created to demonstrate cybersecurity-focused threat analysis techniques and secure coding practices. The tool is designed to help identify potentially malicious URLs using explainable security heuristics rather than machine learning models.
-Future Enhancements:
-1- WHOIS domain age analysis
-2- DNS lookups
-3- Threat intelligence integration
-4- Blacklist reputation checks
-5- Web interface dashboard
-6- IOC export functionality
-
-
+Phishing Detection Tool is a Python-based cybersecurity project designed to analyze URLs for common phishing indicators and generate a threat assessment report. The tool evaluates multiple characteristics of a URL, including the use of IP-based domains, suspicious keywords, URL shortening services, excessive subdomains, unusual URL length, special character abuse, and potentially suspicious top-level domains. By applying explainable security heuristics, the tool provides a risk score and highlights the specific indicators that contributed to the assessment. This project was created to demonstrate cybersecurity-focused threat analysis, secure coding practices, and practical detection techniques without relying on machine learning models. Future enhancements may include domain age analysis, DNS lookups, threat intelligence integration, blacklist reputation checks, and additional investigative features commonly used in cybersecurity operations.
